@@ -1,0 +1,31 @@
+MODEL: Support Vector Machine (SVM)
+            DATASET: data.csv
+            SPLIT: 80% training / 20% testing
+            RANDOM STATE: 42
+            FEATURE COUNT: 14
+            SELECTED FEATURES: radius1, perimeter1, area1, compactness1, concavity1, concave_points1, radius2, perimeter2, radius3, perimeter3, area3, compactness3, concavity3, concave_points3
+            TRAINING SAMPLES: 455
+            TESTING SAMPLES: 114
+
+            EVALUATION METRICS
+            Accuracy  : 0.9561
+            AUC Score : 0.9987
+            Precision : 1.0000
+            Recall    : 0.8810
+            F1 Score  : 0.9367
+            MCC Score : 0.9076
+
+            CONFUSION MATRIX
+            [[72, 0], [5, 37]]
+
+            CLASSIFICATION REPORT
+                          precision    recall  f1-score   support
+
+      Benign       0.94      1.00      0.97        72
+   Malignant       1.00      0.88      0.94        42
+
+    accuracy                           0.96       114
+   macro avg       0.97      0.94      0.95       114
+weighted avg       0.96      0.96      0.96       114
+
+            
